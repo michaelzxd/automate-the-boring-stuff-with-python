@@ -11,5 +11,5 @@ def list_str(alist):
 	print(astring[:-2])
 
 
-
+ 
 list_str(spam)
