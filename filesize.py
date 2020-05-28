@@ -14,5 +14,6 @@ def filesize():
 	value_list.sort(reverse = True)
 	new_file_dic = {v : k for k, v in file_dic.items()}
 	for value in value_list:
-		print(new_file_dic[value]+ 'size is: ' + str(value))
+		final_result = new_file_dic[value]+ 'size is: ' + str(value)
+		print(final_result.rjust(40,'-'))
 filesize()
