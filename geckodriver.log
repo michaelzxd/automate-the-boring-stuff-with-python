@@ -115,3 +115,9 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 1590831721273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1590831723301	Marionette	INFO	Listening on port 63966
 1590831723335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590832016073	Marionette	INFO	Stopped listening on port 60379
+1590832017469	Marionette	INFO	Stopped listening on port 55139
+1590832020539	Marionette	INFO	Stopped listening on port 54507
+1590832023940	Marionette	INFO	Stopped listening on port 57405
+1590832025856	Marionette	INFO	Stopped listening on port 57109
+1590832027901	Marionette	INFO	Stopped listening on port 63966
