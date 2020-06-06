@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-# step by step is ok, but pyautogui.typewrite(['down','down',]) does not work, do not know why
+# step by step is ok, but pyautogui.typewrite(['down','down',]) does not work, do not know why,may be too fast
 
 import pyautogui,time
 
@@ -30,7 +30,7 @@ for person in formData:
 	print('Entering %s ' % (person['source']))
 
 	if person['source'] == 'wand':
-		# pyautogui.typewrite(['down','down','\n','\t'])
+		# pyautogui.press(['down','down','\n','\t'])
 		pyautogui.press('down')
 		time.sleep(2)
 		pyautogui.press('down')
@@ -50,7 +50,7 @@ for person in formData:
 	print('Entering %s ' % (person['robocop']))	
 	if person['robocop'] == 3:
 		pyautogui.typewrite(['right','right','right', '\t'])
-	elif person['robocop'] == 2:
+	else:
 		pyautogui.typewrite(['right', '\t'])
 
 	print('Entering %s ' % (person['comments']))	
