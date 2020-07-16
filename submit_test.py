@@ -32,11 +32,11 @@ for person in formData:
 	if person['source'] == 'wand':
 		# pyautogui.press(['down','down','\n','\t'])
 		pyautogui.press('down')
-		time.sleep(2)
+		time.sleep(1)
 		pyautogui.press('down')
-		time.sleep(2)
+		time.sleep(1)
 		pyautogui.press('\n')
-		time.sleep(2)
+		time.sleep(1)
 		pyautogui.press('\t')
 	else:
 		pyautogui.press('down')
